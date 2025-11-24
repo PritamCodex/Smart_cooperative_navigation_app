@@ -1,0 +1,48 @@
+name: cooperative_navigation_safety
+description: Cooperative Mobile Navigation Safety App with P2P communication
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # Core functionality
+  nearby_connections: ^4.0.0
+  location: ^7.0.0
+  sensors_plus: ^6.0.0
+  
+  # UI and animation
+  flutter_riverpod: ^2.6.1
+  google_fonts: ^6.1.0
+  
+  # State management and utilities
+  uuid: ^4.0.0
+  intl: ^0.19.0
+  collection: ^1.18.0
+  
+  # Platform integration
+  flutter_foreground_task: ^8.0.0
+  permission_handler: ^11.3.0
+  
+  # Data processing
+  vector_math: ^2.1.4
+  device_info_plus: ^12.2.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/sounds/
