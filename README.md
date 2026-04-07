@@ -93,10 +93,12 @@ Alert & Visualization UI
 ```
 
 ## ⚙️ Setup Instructions
+```bash
 flutter pub get
 flutter run
+```
 
-🎯 Problem Solved
+## 🎯 Problem Solved
 
 Traditional navigation systems:
 
@@ -105,14 +107,20 @@ Cannot predict collisions in real-time
 
 This system enables:
 
+```bash
 Real-time peer awareness
 Predictive safety alerts
 Offline cooperative navigation
-🚀 Future Scope
+```
+
+## 🚀 Future Scope
+
+```json
 Machine learning-based prediction
 iOS support
 Voice alerts
 Vehicle system integration
-⭐ Note
+```
 
+## ⭐ Note
 This project demonstrates real-time systems, distributed communication, and low-latency processing — not just mobile UI development.
